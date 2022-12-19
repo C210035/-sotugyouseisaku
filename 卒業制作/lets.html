@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>狭山茶を飲もう｜狭山茶について</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="container">    <!-- 全体を囲むdiv -->
+
+<!-- ====================　ヘッダー　==================== -->
+<header>
+  <div id="header-title">狭山茶について</div>
+  <nav>
+    <ul>
+      <li><a href="top.html">サイト説明</a></li>
+      <li><a href="sayamatyahis.html">狭山茶の紹介</a></li>
+      <li><a href="irumaj.html">条例について</a></li>
+      <li><a href="make.html">狭山茶の入れ方</a></li>
+      <li><a href="link.html">リンク集</a></li>
+      <li><a href="lets.html">狭山茶を飲む</a></li>
+    </ul>
+  </nav>
+</header>
+ 
+
+<!-- ====================　文字サイズ変更　==================== -->
+<div class="button_wrapper">
+<button class="button1" onclick="fontSizeS()">文字サイズ：小</button>
+<button class="button1" onclick="fontSizeM()">文字サイズ：中</button>
+<button class="button1" onclick="fontSizeL()">文字サイズ：大</button>
+</div>
+
+<!-- =====================　メイン　===================== -->
+<div id="main">
+  <h1>狭山茶の展開</h1>
+  <img src="sayama_tea1.jpg" alt="りょくちゃ" width="300" height="300">
+  <img src="sayamakoutya.jpg" alt="和紅茶" width="300" height="300">
+  <img src="hakotea1.jpg" alt="ちゃばこ" width="300" height="300">
+  <img src="hakotea2.jpg" alt="ちゃばこ" width="300" height="300">
+  <br>
+  <br>
+  <br>
+
+  <h1>狭山茶を使ったお菓子</h1>
+  <img src="daihuku.jpg" alt="大福" width="300" height="300">
+  <img src="youkann.jpg" alt="羊羹" width="300" height="300">
+  <img src="dac.jpg" alt="ダックワース" width="300" height="300">
+  <img src="ran.jpg" alt="ラングドシャ" width="300" height="300">
+  <br>
+  
+  <p>  </p>
+  <p>景色が良く、お茶もおいしい入間市に是非一度お越しください！</p>
+  <br>
+  <p><img src="iruma_tyabatake1.jpg" alt="茶畑" width="800" height="400"></p>
+  <br>
+</div>
+
+<!-- ====================　フッター　==================== -->
+<footer>
+  <a href="#" id="page-top"><i class="blogicon-chevron-up"></i>TOP</a>
+  <p>狭山茶について</p>
+  <p>Copyright (C) 2022 Maki　Nohechi All rights reserved.</p>
+</footer>
+
+</div>                  <!-- 全体を囲むdiv -->
+
+<!-- ====================　文字サイズ変更script　==================== -->
+<script>
+  let main = document.getElementById('main');
+  function fontSizeS() {
+    main.style.fontSize = '14px';
+  }
+  function fontSizeM() {
+    main.style.fontSize = '18px';
+  }
+  function fontSizeL() {
+    main.style.fontSize = '22px';
+  }
+</script>
+
+</body>
+
+</html>

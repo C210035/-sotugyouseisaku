@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>狭山茶の入れ方｜狭山茶について</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="container">    <!-- 全体を囲むdiv -->
+
+<!-- ====================　ヘッダー　==================== -->
+<header>
+  <div id="header-title">狭山茶について</div>
+  <nav>
+    <ul>
+      <li><a href="top.html">サイト説明</a></li>
+      <li><a href="sayamatyahis.html">狭山茶の紹介</a></li>
+      <li><a href="irumaj.html">条例について</a></li>
+      <li><a href="make.html">狭山茶の入れ方</a></li>
+      <li><a href="link.html">リンク集</a></li>
+      <li><a href="lets.html">狭山茶を飲む</a></li>
+    </ul>
+  </nav>
+</header>
+ 
+<!-- ====================　文字サイズ変更　==================== -->
+<div class="button_wrapper">
+  <button class="button1" onclick="fontSizeS()">文字サイズ：小</button>
+  <button class="button1" onclick="fontSizeM()">文字サイズ：中</button>
+  <button class="button1" onclick="fontSizeL()">文字サイズ：大</button>
+  </div>
+    
+<!-- =====================　メイン　===================== -->
+<div id="main">
+  <h1>お茶の入れ方</h1>
+  <a href="#straight"> <img src="back_tea.jpg" alt="りょくちゃ" width="70" height="50"></a>
+  <p>緑茶の入れ方</p>
+
+  <a href="#red"> <img src="red_tea.jpg" alt="紅茶" width="70" height="50"></a>
+  <p>紅茶の入れ方</p>
+
+  <h1 id="straight">緑茶の入れ方</h1>
+  <img src="back_tea.jpg" alt="ストレートティー" width="200" height="150">
+  <p>1.沸騰したお湯を茶碗に八分目まで注ぎ、冷まします。湯冷ましを使用する場合もあります。</p>
+  <br>
+  <p>2.適量の茶葉を急須に入れます。目安：３人で６ｇ。</p>
+  <br>
+  <p>3.湯冷ましした茶碗のお湯を急須に注ぎ、６０秒位（深蒸し茶は３０秒）お茶が侵出するのを待ちます。</p>
+  <p>お湯の温度は70度～80度が目安。</p>
+  <br>
+  <p>4.少量ずつ茶碗に注ぎます。数人分注ぎ分ける時は、少量ずつ注ぎ分け、味を均等にします。</p>
+  <br>
+  <p>5.最後の一滴までしっかり注ぎ切るようにします。</p>
+  <p>急須にお湯が残っていると、お茶の成分が浸出し、二、三煎目がおいしくなくなります。</p>
+  <p>二、三煎目はお湯を入れてから30秒位待ちます。</p>
+  <br>
+
+　<h1 id="red">紅茶の入れ方</h1>
+  <img src="red_tea.jpg" alt="紅茶" width="200" height="150">
+  <p>1.やかんに汲みたての水を入れて、火にかけ沸騰させます。5円玉くらいの泡がボコボコ出ている状態が目安です。</p>
+  <br>
+  <p>2.紅茶をいれる前に、まずポットとカップにお湯を注ぎ、全体を温めておきましょう。</p>
+  <br>
+  <p>3.温めたポットに、ティースプーン1杯（2～3g）を１人分として、人数分の茶葉を入れます。細かい茶葉は中盛、大きい茶葉は大盛にするのが目安です。</p>
+  <br>
+  <p>4.沸騰したてのお湯を人数分注ぎ、すぐにフタをして蒸らして下さい。この時、沸騰したお湯を勢いよく注ぐのがコツ。（1杯分150～160mlが目安）</p>
+  <br>
+  <p>5.蒸らす時間は、細かい茶葉は2分半～3分、大きい茶葉は3～4分が目安です。（ミルクティーのときは、やや長めに）その間ポットにティーコジーやティーマットを使うとさらに保温効果が上がります。</p>
+  <p>※おいしい紅茶をいれるには、温度を下げないことがポイント。</p>
+  <br>
+  <p>6.ポットの中を、スプーンで軽くひとまぜ。</p>
+  <br>
+  <p>7.茶こしで茶ガラをこしながら、濃さが均一になるようにまわし注ぎしましょう。“ベスト・ドロップ”と呼ばれる最後の一滴まで注いでください。 </p>
+  <br>
+  
+</div>
+
+<!-- ====================　フッター　==================== -->
+<footer>
+  <a href="#" id="page-top"><i class="blogicon-chevron-up"></i>TOP</a>
+  <p>狭山茶について</p>
+  <p>Copyright (C) 2022 Maki　Nohechi All rights reserved.</p>
+</footer>
+
+</div>                  <!-- 全体を囲むdiv -->
+
+<!-- ====================　文字サイズ変更script　==================== -->
+<script>
+  let main = document.getElementById('main');
+  function fontSizeS() {
+    main.style.fontSize = '14px';
+  }
+  function fontSizeM() {
+    main.style.fontSize = '18px';
+  }
+  function fontSizeL() {
+    main.style.fontSize = '22px';
+  }
+</script>
+
+</body>
+
+</html>

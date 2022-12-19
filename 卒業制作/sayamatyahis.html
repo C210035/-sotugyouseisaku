@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>狭山茶の紹介｜狭山茶について</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="container">    <!-- 全体を囲むdiv -->
+
+<!-- ====================　ヘッダー　==================== -->
+<header>
+  <div id="header-title">狭山茶について</div>
+  <nav>
+    <ul>
+      <li><a href="top.html">サイト説明</a></li>
+      <li><a href="sayamatyahis.html">狭山茶の紹介</a></li>
+      <li><a href="irumaj.html">条例について</a></li>
+      <li><a href="make.html">狭山茶の入れ方</a></li>
+      <li><a href="link.html">リンク集</a></li>
+      <li><a href="lets.html">狭山茶を飲む</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ====================　文字サイズ変更　==================== -->
+<div class="button_wrapper">
+  <button class="button1" onclick="fontSizeS()">文字サイズ：小</button>
+  <button class="button1" onclick="fontSizeM()">文字サイズ：中</button>
+  <button class="button1" onclick="fontSizeL()">文字サイズ：大</button>
+  </div>
+
+<!-- =====================　メイン　===================== -->
+<div id="main">
+  <h1>狭山茶の起源を知る</h1>
+  <a href="#straight"> <img src="back_tea.jpg" alt="りょくちゃ" width="450" height="250"></a>
+  <p>日本三大銘茶の一つに数えられる狭山茶は一体いつから親しまれている物なのでしょうか？</p>
+
+  <p>日本三大銘茶の一つに数えられる狭山茶は一体いつから親しまれている物なのでしょうか？</p>
+  <p>由来は諸説ありますが、最も振るい記録によると1200年代にまで遡ります。</p>
+  <p>1200年代と言うと鎌倉幕府やチンギス・ハーンの時代ですから</p>
+  <p>相当昔から飲まれているようです。</p>
+  <br>
+  <h1>狭山茶ってなに？</h1>
+  <p>狭山茶は埼玉県を中心に栽培されている日本茶の総称です。</p>
+  <p>1200年頃に寺院で薬用茶の栽培がはじまり、</p>
+  <p>1800年代半ばには飲用茶の栽培が広く行われるようになりました。</p>
+  <p>狭山茶は埼玉県南西部の入間市、狭山市、所沢市を中心に栽培・製造されています。</p>
+  <img src="teamap.jpg" alt="さいたま地図" width="600" height="350">
+  <br>
+  <h1>狭山茶の多様性</h1>
+  <p>お茶の産地として狭山を知っている方は少ないのでないでしょうか。</p>
+  <p>世界的には、大量生産地である静岡や抹茶を生産している宇治が良く知られています。</p>
+  <p>狭山茶を作る農家はは小規模農家が多く、生産量も全国生産の2％（平成30年度生葉）です。</p>
+  <p>小規模の農家が茶園で栽培した茶葉を、自工場で製茶し、販売まで行っています。</p>
+  <p>各茶園が生産するお茶の味は一軒ごとに異なり、この多様性は狭山茶の大きな魅力の一つです。</p>
+  <p>これは各地から茶葉を集荷し、共同加工、協同保管をする大規模生産地にはない特徴です。</p>
+  <p>多種多様に存在する狭山茶の中から自分好みの一杯に探してみてはいかがでしょうか。</p>
+  <p></p>
+  <br>
+  
+</div>
+
+<!-- ====================　フッター　==================== -->
+<footer>
+  <a href="#" id="page-top"><i class="blogicon-chevron-up"></i>TOP</a>
+  <p>狭山茶について</p>
+  <p>Copyright (C) 2022 Maki　Nohechi All rights reserved.</p>
+</footer>
+
+</div>                  <!-- 全体を囲むdiv -->
+
+<!-- ====================　文字サイズ変更script　==================== -->
+<script>
+  let main = document.getElementById('main');
+  function fontSizeS() {
+    main.style.fontSize = '14px';
+  }
+  function fontSizeM() {
+    main.style.fontSize = '18px';
+  }
+  function fontSizeL() {
+    main.style.fontSize = '22px';
+  }
+</script>
+
+</body>
+
+</html>

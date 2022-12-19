@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>サイト説明｜狭山茶について</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="container">    <!-- 全体を囲むdiv -->
+
+<!-- ====================　ヘッダー　==================== -->
+<header>
+  <div id="header-title">狭山茶について</div>
+  <nav>
+    <ul>
+      <li><a href="top.html">サイト説明</a></li>
+      <li><a href="sayamatyahis.html">狭山茶の紹介</a></li>
+      <li><a href="irumaj.html">条例について</a></li>
+      <li><a href="make.html">狭山茶の入れ方</a></li>
+      <li><a href="link.html">リンク集</a></li>
+      <li><a href="lets.html">狭山茶を飲む</a></li>
+    </ul>
+  </nav>
+</header>
+ 
+<!-- ====================　文字サイズ変更　==================== -->
+<div class="button_wrapper">
+  <button class="button1" onclick="fontSizeS()">文字サイズ：小</button>
+  <button class="button1" onclick="fontSizeM()">文字サイズ：中</button>
+  <button class="button1" onclick="fontSizeL()">文字サイズ：大</button>
+  </div>
+     
+<!-- =====================　メイン　===================== -->
+<div id="main">
+  <h1>サイト説明</h1>
+  <p>このサイトは日本三大銘茶の一つに数えられる狭山茶にユニークな条例ができるニュースに驚き</p>
+  <p>狭山茶や入間市について、ぜひ知って狭山茶に興味をもって欲しいと思い制作しました。</p>
+  <br>
+  <h1>狭山茶と入間市</h1>
+  <p>「色は静岡、香りは宇治よ、味は狭山でとどめさす」と謳われる狭山茶はさわやかな香りと、こくのある味わいが特徴です。</p>
+  <p>狭山茶は埼玉県下全般に生産されますお茶の総称で、ここ入間市が主産地です。その生産量、栽培面積も県下一を誇っています。</p>
+  <p>  </p>
+  <br>
+  <h1>埼玉お茶マップ</h1>
+  <img src="teamap.jpg" alt="さいたま地図" width="600" height="350">
+  <p></p>
+</div>
+
+<!-- ====================　フッター　==================== -->
+<footer>
+  <a href="#" id="page-top"><i class="blogicon-chevron-up"></i>TOP</a>
+  <p>狭山茶について</p>
+  <p>Copyright (C) 2022 Maki　Nohechi All rights reserved.</p>
+</footer>
+
+</div>                  <!-- 全体を囲むdiv -->
+
+<!-- ====================　文字サイズ変更script　==================== -->
+<script>
+  let main = document.getElementById('main');
+  function fontSizeS() {
+    main.style.fontSize = '14px';
+  }
+  function fontSizeM() {
+    main.style.fontSize = '18px';
+  }
+  function fontSizeL() {
+    main.style.fontSize = '22px';
+  }
+</script>
+
+</body>
+
+</html>
